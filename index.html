@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous" />
+
+    <title>Selenium - Web Scrapping Sample</title>
+</head>
+
+<body>
+    <div class="container">
+
+        <h1>Selenium - Web Scrapping Sample</h1>
+
+        <div class="mb-3">
+            <label for="email" class="form-label">Input</label>
+            <input type="email" class="form-control" id="email" value="email@example.com" />
+        </div>
+        <div class="mb-3">
+            <label for="single_select" class="form-label">Single Select</label>
+            <select class="form-select" id="single_select">
+                <option value="1">Option 01</option>
+                <option value="2" selected>Option 02</option>
+                <option value="3">Option 03</option>
+            </select>
+        </div>
+        <div class="mb-3">
+            <label for="multi_select" class="form-label">Multi Select</label>
+            <select class="form-select" multiple id="multi_select">
+                <option value="1">Multioption 01</option>
+                <option value="2">Multioption 02</option>
+                <option value="3" selected>Multioption 03</option>
+                <option value="4" selected>Multioption 04</option>
+            </select>
+        </div>
+        <div class="mb-3">
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="Default checkbox" name="single-checkbox" id="default_checkbox">
+                <label class="form-check-label" for="default_checkbox">
+                    Default checkbox
+                </label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="Checked checkbox" name="single-checkbox" id="checked_checkbox" checked>
+                <label class="form-check-label" for="checked_checkbox">
+                    Checked checkbox
+                </label>
+            </div>
+        </div>
+        <div class="mb-3">
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="single-radio" id="default_radio">
+                <label class="form-check-label" for="default_radio">
+                    Default radio
+                </label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="single-radio" id="checked_radio" checked>
+                <label class="form-check-label" for="checked_radio">
+                    Checked radio
+                </label>
+            </div>
+        </div>
+        <div class="mb-3">
+            <label for="exampleTextArea" class="form-label">Example textarea</label>
+            <textarea class="form-control" id="exampleTextArea" rows="3">Nos últimos anos, muitos estudos vêm se dedicando à criação de chaves públicas e privadas de criptografia. Por outro lado, poucos sintetizaram a visualização do problema previamente relatado.</textarea>
+        </div>
+    </div>
+
+    <hr />
+    
+    <div class="container">
+        <div class="mb-3">
+            <label for="result" class="form-label">Resultado da Extração</label>
+            <textarea class="form-control" id="result" rows="6"></textarea>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8" crossorigin="anonymous"></script>
+</body>
+
+</html>
